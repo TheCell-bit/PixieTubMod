@@ -1,7 +1,7 @@
 package com.example.pixietubfix.mixin;
 
 import com.example.pixietubfix.PixieTubFix;
-import com.llamalad7.mixinextras.injector.v2.WrapMethod;
+import com.llamalad7.mixinextras.injector.wrapmethod.WrapMethod;
 import com.llamalad7.mixinextras.injector.wrapoperation.Operation;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.entity.Entity;
