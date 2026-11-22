@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "pixietubfix",
+  "version": "${version}",
+  "name": "PixieTubFix",
+  "description": "Lets small/fall-immune players (e.g. the Pixie origin) crush grapes in Kaleidoscope Tavern's Pressing Tub.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.pixietubfix.PixieTubFix"]
+  },
+  "mixins": ["pixietubfix.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
